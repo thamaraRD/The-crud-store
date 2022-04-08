@@ -4,7 +4,8 @@ Este es un proyecto CRUD/MERN.
 
 ## Description :page_with_curl:
 
-Sistema de ingreso de productos para cualquier empresa, miniempresa o entidad que lo requiera. Sus funciones principales son  agregar, listar, ver y eliminar el producto.
+Sistema de ingreso de productos para cualquier entidad que lo requiera.
+Sus funciones principales son  agregar, listar, ver detalle del producto y eliminar.
 
 - Instala todas las dependencias usando:
 ```
