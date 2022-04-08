@@ -1,6 +1,6 @@
 import React, { useEffect, useContext } from 'react';
 import { useState } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { ProductForm } from '../components/ProductForm';
 import { UserContext } from '../context/UserContext';
 import { axiosWithToken } from '../helpers/axios';
@@ -146,9 +146,7 @@ const handleLogOut = () => {
                 />
             ) : (
               <h2>Espere por favor...</h2>
-              )}
-              <Link to={'/'} className="text-decoration-none d-block text-end">Volver al Dashboard</Link> 
-      
+              )}      
         </Col>
       </Row>
     </Container>

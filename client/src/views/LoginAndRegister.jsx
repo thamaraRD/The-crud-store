@@ -86,7 +86,7 @@ location.pathname === '/register' ? setLogin(false) : setLogin(true);
             formHandler={login ? loginUser : registerUser }
             nameButton={login ? 'Acceder' : 'Registrarme'}
             />
-            <Button variant="secondary" className="my-3 me-2 d-block ms-auto" onClick={() => navigate(goto)}>{!login ? 'Accede aquí' : 'Registrate aquí'}</Button>
+            <Button variant="warning" className="my-3 me-2 d-block ms-auto" onClick={() => navigate(goto)}>{!login ? 'Accede aquí' : 'Registrate aquí'}</Button>
             </Col>
             </Row>
         </Container>
